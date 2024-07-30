@@ -1,0 +1,19 @@
+def print_profile():
+    # Replace these with your actual details
+    name = "Swarangi Sawant"
+    age = 22
+    occupation = "Student"
+    location = "Mumbai"
+    interests = ["Singing", "Creating Dashboards", "Playing with Data"]
+
+    # Printing profile information
+    print(f"Name: {name}")
+    print(f"Age: {age}")
+    print(f"Occupation: {occupation}")
+    print(f"Location: {location}")
+    print("Interests:")
+    for interest in interests:
+        print(f"- {interest}")
+
+# Calling the function to print the profile
+print_profile()
